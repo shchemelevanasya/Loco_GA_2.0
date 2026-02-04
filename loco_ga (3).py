@@ -3,6 +3,11 @@ loco_ga.py
 Ядро генетического алгоритма и модель локомотивного назначения.
 Русский интерфейс: internal strings not for UI.
 """
+import streamlit as st
+st.write("DEBUG: приложение стартовало")
+import sys
+st.write("Python:", sys.version)
+
 from dataclasses import dataclass, field
 from typing import List, Dict, Tuple, Any, Callable, Optional
 import numpy as np
