@@ -1,5 +1,5 @@
 """
-loco_ga.py
+loco_ga (3).py
 Ядро генетического алгоритма и модель локомотивного назначения.
 Русский интерфейс: internal strings not for UI.
 """
@@ -23,7 +23,7 @@ import numpy as np
 import time
 import base64
 from io import BytesIO, StringIO
-from loco_ga import GeneticAlgorithm, GAConfig, sample_data, Trip, Loco, LocoType, evaluate_individual, compute_fitness
+from loco_ga (3) import GeneticAlgorithm, GAConfig, sample_data, Trip, Loco, LocoType, evaluate_individual, compute_fitness
 import plots
 import matplotlib.pyplot as plt
 import seaborn as sns
